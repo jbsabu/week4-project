@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100&display=swap');
+
+h1,h2{
+  margin:  0%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.169);
+  color: aliceblue;
+  font-family: 'Anuphan', sans-serif;
+  
+}
+
+body{
+  /* background-image: url("../images/bg1.jpg"); */
+  background-repeat: no-repeat;
+  background-size:cover;
+justify-content: center;
+background-color: rgb(60, 60, 60);
+}
+
+#bodyParagraph{
+  -webkit-box-shadow: 10px 10px 37px 0px rgba(255,255,255,1);
+-moz-box-shadow: 10px 10px 37px 0px rgba(255,255,255,1);
+box-shadow: 10px 10px 37px 0px rgba(255,255,255,1);
+  background-color: rgb(32, 32, 32);
+  display: flex;
+  border: 2px;
+  border-color: black;
+  border-style: groove;
+  flex-wrap: wrap ;
+  justify-content: center;
+  width: 50%;
+  text-align: center;
+  margin: 80px auto;
+  color: rgb(255, 255, 255);
+  font-family: 'Anuphan', sans-serif;
+}
+
+#krishna{
+  display: flex;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin: auto;
+  justify-content: center;
+border: 10px,8px;
+border-color: rgb(54, 22, 22);
+border-style: double;
+}
+
+.card{
+  -webkit-box-shadow: 10px 10px 37px 0px rgba(255,255,255,1);
+-moz-box-shadow: 10px 10px 37px 0px rgba(255,255,255,1);
+box-shadow: 10px 10px 37px 0px rgba(255,255,255,1);
+  background-color: rgb(32, 32, 32);
+  border: 1px;
+  margin: 50px;
+  
+  border-color: black;
+  border-style: groove;
+  width: 500px;
+  height: 100px;
+  font-size: small;
+  display: flex;
+  border: 2px;
+  border-color: black;
+  border-style: groove;
+  flex-wrap: wrap ;
+  justify-content: center;
+  font-variant: small-caps;
+  text-align: center;
+  margin: 60px auto;
+  color: rgb(255, 255, 255);
+  font-family: 'Anuphan', sans-serif;
+}
+
+section {
+  flex: content;
+  justify-items: baseline;
+}
+
+.card:hover,#bodyParagraph:hover{
+  background-color: aliceblue;
+  font-weight: bold;
+  color: black;
+  -webkit-box-shadow: 10px 10px 37px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 37px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 37px 0px rgba(0,0,0,0.75);
+}
+
+/* url("../images/Krishnamurti-Intro-1.jpg") */
